@@ -1,0 +1,9 @@
+numpy==2.1.3
+pandas==2.2.3
+requests==2.32.3
+tqdm==4.67.0
+yfinance==0.2.49
+python-dotenv
+robin_stocks
+llama_index
+finnhub-python

@@ -1,0 +1,57 @@
+[
+    {
+        "category": "company",
+        "datetime": 1735835014,
+        "headline": "Tesla (TSLA) Stock Sinks on Q4 Deliveries Miss",
+        "id": 132239831,
+        "image": "https://s.yimg.com/ny/api/res/1.2/R3DsTXHuX1Up50du0B.awA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/1277c6032fd09b727a10249a170024cf",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Tesla\u2019s (NASDAQ:TSLA) shares are sliding 6% this morning after the electric-vehicle maker reported lower-than-expected fourth-quarter deliveries. But defending the name on weakness today is Dan Ives, a well-known analyst at investment bank Wedbush Securities. Tesla\u2019s Q4 Deliveries Shortfall Elon Musk\u2019s automaker handed over 495,570 EVs last quarter, coming in well under analysts\u2019 average estimate of [\u2026]",
+        "url": "https://finnhub.io/api/news?id=05fa4c963b7bb6c8c58cf21192981780d21bbd6bb444c9e2299601ee5ca5214b"
+    },
+    {
+        "category": "company",
+        "datetime": 1735833196,
+        "headline": "Tesla suffers first annual sales drop in a decade amid backlash against Musk",
+        "id": 132239627,
+        "image": "",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Tesla has recorded its first drop in annual sales for a decade after Elon Musk\u2019s support for Donald Trump provoked a backlash from Left-wing motorists.",
+        "url": "https://finnhub.io/api/news?id=c45747188e53f15cd7e0d88f2f22c558e83099b9a703f97fd41c161e014a61a8"
+    },
+    {
+        "category": "company",
+        "datetime": 1735833180,
+        "headline": "Tesla\u2019s Annual EV Sales Drop for First Time in Over a Decade",
+        "id": 132239628,
+        "image": "https://s.yimg.com/ny/api/res/1.2/B9io6j_7kr3hdGcQ0AfJnA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTk-/https://media.zenfs.com/en/bloomberg_markets_842/7da3c8da1b2f0dc0d59c0071a2a87913",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "(Bloomberg) -- Tesla Inc.\u2019s annual vehicle sales dropped for the first time in more than a decade despite a year-end push that sent deliveries to a record in the fourth quarter.Most Read from BloombergIs This Weird Dome the Future of Watching Sports?NYPD Seeking Gunmen After 10 People Wounded Outside Queens VenueDetroit\u2019s Michigan Central Is the Building Revival Story of 2024Burned Out Parents Need Better Public SpacesA Commuting Resolution for 2025: Ride Your Local Subway or BusThe Elon Musk-le",
+        "url": "https://finnhub.io/api/news?id=5ef35d63a93ca8b64320030dd0440445a712f5680fb49ce0c36721d73e34a828"
+    },
+    {
+        "category": "company",
+        "datetime": 1735833137,
+        "headline": "Why Tesla (TSLA) Stock Is Down Today",
+        "id": 132239835,
+        "image": "https://s.yimg.com/ny/api/res/1.2/kyEm5VU.Mu13_2MAnTOwQw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/9e0f08f01f3d35996ac49bdd618e9411",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Shares of electric vehicle pioneer Tesla (NASDAQ:TSLA) fell 5.1% in the morning session after the company reported underwhelming vehicle deliveries for Q4 2024. Total deliveries were 495,570 for Q4 2024, falling short of the consensus estimate of just under 507,000. Results for the quarter show the first annual drop in delivery numbers for the company, which reported 1.80 million deliveries in 2024 and 1.81 million deliveries in 2023.",
+        "url": "https://finnhub.io/api/news?id=13b45c5d3a736dc25891041c0ad80ec0df1a76f2108254ae7a906919e7714248"
+    },
+    {
+        "category": "company",
+        "datetime": 1735831560,
+        "headline": "BYD Takes the Global EV Sales Crown From Tesla Again. That\u2019s Not Enough for the Stock, Though.",
+        "id": 132239629,
+        "image": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "BYD, China\u2019s largest EV maker, delivered 207,734 all-electric vehicles in December, up about 9% year over year.  Tesla delivered just under 496,000 EVs in the fourth quarter.  Tesla sold 1.79 million, down about 1%.",
+        "url": "https://finnhub.io/api/news?id=3626fe45059249abcc01795452dcd0558f24b3f073cc134716109ae75a286933"
+    }
+]

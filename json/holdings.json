@@ -1,0 +1,31 @@
+{
+    "TSLA": {
+        "price": "376.770000",
+        "quantity": "0.02442800",
+        "average_buy_price": "409.3663",
+        "equity": "9.20",
+        "percent_change": "-7.96",
+        "intraday_percent_change": "-7.96",
+        "equity_change": "-0.796262",
+        "type": "stock",
+        "name": "Tesla",
+        "id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
+        "pe_ratio": "110.629000",
+        "percentage": "2.44"
+    },
+    "LITM": {
+        "price": "0.921900",
+        "quantity": "399.63128200",
+        "average_buy_price": "0.9382",
+        "equity": "368.42",
+        "percent_change": "-1.74",
+        "intraday_percent_change": "-1.62",
+        "equity_change": "-6.513990",
+        "type": "stock",
+        "name": "Snow Lake Resources",
+        "id": "2eb8f060-cbc7-481e-94ca-d71400096ac1",
+        "pe_ratio": null,
+        "percentage": "97.56"
+    },
+    "timestamp": "2025-01-02 18:39:38"
+}
