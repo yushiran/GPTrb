@@ -1,0 +1,58 @@
+name: Scoring code quality for main branch
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  score-code:
+    runs-on: ${{ matrix.os }}-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        os: ["ubuntu"]
+    continue-on-error: true
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        miniforge-version: latest
+        environment-file: environment.yml
+        activate-environment: GPTrb
+        auto-activate-base: false
+
+    - name: Check code quality
+      id: linting
+      run: |
+        pip install pylint
+        MESSAGE=$(pylint -ry $(git ls-files '*.py') ||:)
+
+        echo 'MESSAGE<<EOF' >> $GITHUB_ENV
+        echo "<pre><code>$MESSAGE</code></pre>" >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+
+        echo "Printing PR message: $MESSAGE"
+
+    - name: Post report to pull request
+      uses: mshick/add-pr-comment@v2
+      with:
+        message: ${{ env.MESSAGE }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check for reproducibility
+      run: |
+        conda info --envs
+        conda env list
+        conda list
