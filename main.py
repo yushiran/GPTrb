@@ -21,6 +21,7 @@ from src.mail import mail_main
 
 def main():
     totp  = pyotp.TOTP(alphanumeric_code).now()
+    print(totp)
     login = r.login(USERNAME, PASSWORD, mfa_code=totp)
 
     threading_list = []
