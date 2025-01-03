@@ -68,14 +68,14 @@ def analysis_main():
                 json.dump(company_stock_news, json_file, indent=4)
 
         general_stock_news = get_general_stock_news()
-        general_news_path = f"{CURRENT_DIR}/../for_gpt_file/market/general_stock_news.json"
+        general_news_path = f"{CURRENT_DIR}/../for_gpt_file/market/general_stock_news/general_stock_news.json"
         os.makedirs(os.path.dirname(general_news_path), exist_ok=True)
         with open(general_news_path, 'w') as json_file:
             json.dump(general_stock_news, json_file, indent=4)
         
         print(f"finish analysis action, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
 
-        time.sleep(1 * 60 * 60)
+        time.sleep(1 * 60)
 
 if __name__ == '__main__':
     analysis_main()

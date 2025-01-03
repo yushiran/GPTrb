@@ -1,15 +1,15 @@
 {
-    "price": "0.913000",
+    "price": "0.834800",
     "quantity": "399.63128200",
     "average_buy_price": "0.9382",
-    "equity": "364.86",
-    "percent_change": "-2.69",
-    "intraday_percent_change": "-2.57",
-    "equity_change": "-10.070708",
+    "equity": "333.61",
+    "percent_change": "-11.02",
+    "intraday_percent_change": "0.00",
+    "equity_change": "-41.321875",
     "type": "stock",
     "name": "Snow Lake Resources",
     "id": "2eb8f060-cbc7-481e-94ca-d71400096ac1",
     "pe_ratio": null,
-    "percentage": "97.54",
-    "timestamp": "2025-01-02 18:38:55"
+    "percentage": "93.78",
+    "timestamp": "2025-01-03 18:06:28"
 }

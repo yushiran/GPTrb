@@ -1,0 +1,57 @@
+[
+    {
+        "category": "company",
+        "datetime": 1735899300,
+        "headline": "Is Apple a Buy, Sell, or Hold in 2025?",
+        "id": 132250023,
+        "image": "https://g.foolcdn.com/editorial/images/799180/aapl.png",
+        "related": "GOOGL",
+        "source": "Yahoo",
+        "summary": "Here's the latest on the largest publicly traded company in the world.",
+        "url": "https://finnhub.io/api/news?id=c6d3b17fc51b8943100c54cce12352cf37eda25024a9f5af740a33ecd007ec34"
+    },
+    {
+        "category": "company",
+        "datetime": 1735896480,
+        "headline": "These 5 Artificial Intelligence (AI) Stocks Make Up 28.8% of the Entire S&P 500 Index",
+        "id": 132249960,
+        "image": "https://g.foolcdn.com/editorial/images/802471/a-photo-of-the-apple-logo-inside-an-apple-store.jpg",
+        "related": "GOOGL",
+        "source": "Yahoo",
+        "summary": "The S&P 500 (SNPINDEX: ^GSPC) is home to 500 companies from 11 different sectors of the economy, making it the most diversified of the major U.S. stock market indexes.  The S&P 500 delivered a return of 25% during 2024, whereas the S&P 500 Equal Weight index, which assigns the same weighting to every stock regardless of its market cap, was up by just 10%.",
+        "url": "https://finnhub.io/api/news?id=5c348c726a9aba443328c13f0e21765e5a203b5d920b8d924855ed8e66e26af5"
+    },
+    {
+        "category": "company",
+        "datetime": 1735891200,
+        "headline": "VONG: Time To Take Some Gains",
+        "id": 132252645,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/155437849/image_155437849.jpg?io=getty-c-w1536",
+        "related": "GOOGL",
+        "source": "SeekingAlpha",
+        "summary": "Vanguard Russell 1000 Growth Index Fund ETF holds 394 large- and mid-cap stocks, heavily concentrated in technology and top holdings. Explore more details here.",
+        "url": "https://finnhub.io/api/news?id=2249f04ec45e2f92df470f647b2178e69ab116f51077dfa0091a85f45c23d81b"
+    },
+    {
+        "category": "company",
+        "datetime": 1735887600,
+        "headline": "Apple Stock Was Hot, Hot, Hot in 2024. Now It Faces a Tougher Test.",
+        "id": 132248624,
+        "image": "",
+        "related": "GOOGL",
+        "source": "Yahoo",
+        "summary": "Apple stock has backed off its all-time high to close the year worth over $3.8 trillion, and within striking distance of being the first company ever to hit $4 trillion.",
+        "url": "https://finnhub.io/api/news?id=a719548caf5b69cd21b10ff2128d0dcc696fbc032c42e818b66816ce9486ab35"
+    },
+    {
+        "category": "company",
+        "datetime": 1735884000,
+        "headline": "Europe stunned the world with its \u2018regulatory tsunami\u2019 this year\u2014but AI and Trump will add new snags in 2025",
+        "id": 132248625,
+        "image": "https://s.yimg.com/ny/api/res/1.2/T9KuV6qTagmkT0dxAZDzEA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/fortune_175/84fd86d89ab40c71cf7490ad909b51cc",
+        "related": "GOOGL",
+        "source": "Yahoo",
+        "summary": "The EU went after Big Tech in 2024 unlike before. The new year will add more players to the regulatory tussle, including Donald Trump and Elon Musk.",
+        "url": "https://finnhub.io/api/news?id=dce421a02a1474e1172ceff94f5778dff859996704bb21f7b210878085fc0c24"
+    }
+]
