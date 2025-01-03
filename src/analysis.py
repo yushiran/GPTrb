@@ -14,9 +14,6 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 # 获取单只股票的详细信息
 def get_stock_info(symbol):
     stock = yf.Ticker(symbol)
-    
-    # 获取实时价格
-    live_price = stock.history(period='1d')['Close'].iloc[-1]
     # 获取历史数据
     history = stock.history(period="3mo")  # 获取最近1个月的历史数据
 

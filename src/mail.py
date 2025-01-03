@@ -27,7 +27,7 @@ def send_email(subject, body, sender, receivers, smtp_server, smtp_port, smtp_pa
 def mail_main():
     while True:
         current_time = time.localtime()
-        if current_time.tm_hour == 12 and current_time.tm_min == 30:
+        if (current_time.tm_hour == 15 and current_time.tm_min == 35) or (current_time.tm_hour == 18 and current_time.tm_min == 35):
             # 示例调用
             subject = "gpt advice"
             with open(f"{CURRENT_DIR}/../json/gpt_advice.txt", 'r', encoding='utf-8') as file:

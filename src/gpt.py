@@ -13,9 +13,10 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 import sys
 sys.path.append(os.path.join(CURRENT_DIR, '..'))
 from src.analysis import get_stock_info, get_company_stock_news
+prompt_file = f"{CURRENT_DIR}/../json/prompt.json"
 
 def gpt_funtion(object:str):
-    with open(f"{CURRENT_DIR}/../prompt.json", "r") as file:
+    with open(prompt_file, "r") as file:
         prompt = json.load(file)
     prompt = prompt["stock_anlysis"]
     llm = OpenAI(temperature=0.1, model="gpt-4o")
@@ -27,7 +28,7 @@ def gpt_funtion(object:str):
     return response
 
 def anysis_market():
-    with open(f"{CURRENT_DIR}/../prompt.json", "r") as file:
+    with open(prompt_file, "r") as file:
         prompt_file = json.load(file)
     prompt = prompt_file["general_recommendation"]
     llm = OpenAI(temperature=0.1, model="gpt-4o")
@@ -61,12 +62,31 @@ def anysis_market():
 
     # print(response)
     return response
+
+def find_opportunity():
+    with open(prompt_file, "r") as file:
+        prompt = json.load(file)
+    prompt = prompt["opportunity"]
+    llm = OpenAI(temperature=0.1, model="gpt-4o")
+    documents = []
+    base_path = f"{CURRENT_DIR}/../for_gpt_file/market/dig_oppo"
+    for folder in os.listdir(base_path):
+        folder_path = os.path.join(base_path, folder)
+        if os.path.isdir(folder_path):
+            documents.extend(SimpleDirectoryReader(folder_path).load_data())
+    index = VectorStoreIndex.from_documents(documents,llm=llm)
+    query_engine = index.as_query_engine()
+    response = query_engine.query(prompt)
+    response = "高风险opportunity: \n" + str(response)
+    return response
     
 def gpt_main():
     while True:
         current_time = time.localtime()
-        if (current_time.tm_hour == 17 and current_time.tm_min == 0) or ( current_time.tm_hour == 20 and current_time.tm_min == 30):
+        if (current_time.tm_hour == 15 and current_time.tm_min == 30) or ( current_time.tm_hour == 18 and current_time.tm_min == 30):
             gpt_advice = []
+
+            gpt_advice.append(time.strftime('%Y-%m-%d %H:%M:%S', current_time))
 
             folders = [f.name for f in os.scandir(f"{CURRENT_DIR}/../for_gpt_file") if f.is_dir() and f.name != "market"]
             for folder in folders:
@@ -74,13 +94,15 @@ def gpt_main():
 
             gpt_advice.append(anysis_market())
 
+            gpt_advice.append(find_opportunity())
+
             with open(f"{CURRENT_DIR}/../json/gpt_advice.txt", "w") as file:
                 for advice in gpt_advice:
                     file.write(str(advice) + "\n")
 
             print(f"finish gpt, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
             
-            time.sleep(5)  # Sleep for 60 seconds to avoid running multiple times within the same minute
+            time.sleep(5)
 
 if __name__=='__main__':
     gpt_main()
