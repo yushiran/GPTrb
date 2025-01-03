@@ -1,0 +1,57 @@
+[
+    {
+        "category": "company",
+        "datetime": 1735938419,
+        "headline": "Ford, GM sales rise by 4% each in 2024, fueled by trucks and EVs",
+        "id": 132258474,
+        "image": "https://s.yimg.com/ny/api/res/1.2/7_Pe7b7I_lWTx4bhNte3cQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/111b2e60-ca16-11ef-a8af-db64699ba12b",
+        "related": "RIVN",
+        "source": "Yahoo",
+        "summary": "Ford (F) and General Motors (GM) reported strong 2024 sales, both growing by over 4% for the year \u2014 marking their highest overall sales since 2019. Yahoo Finance senior reporter Pras Subramanian joins Market Domination hosts Josh Lipton and Josh Schafer to break down the growth seen across the automakers' trucks, SUVs, and EV sales figures. In this video above, Subramanian also discusses EV truck manufacturer Rivian's (RIVN) stock surge after meeting vehicle delivery targets. To watch more expert insights and analysis on the latest market action, check out more Market Domination here. This post was written by Josh Lynch",
+        "url": "https://finnhub.io/api/news?id=9170764f5f840511af738e770df830574eb80b5f582359ca8735a614e1dd11bb"
+    },
+    {
+        "category": "company",
+        "datetime": 1735930200,
+        "headline": "Rivian's Stock Is Surging After It Reported More Deliveries Than Expected",
+        "id": 132258476,
+        "image": "https://g.foolcdn.com/editorial/images/802770/rivian-r1s-production-normal-2023.jpg",
+        "related": "RIVN",
+        "source": "Yahoo",
+        "summary": "Rivian is still seeing solid demand for its upscale outdoorsy EVs.",
+        "url": "https://finnhub.io/api/news?id=459e3115121746d199dba8c762db01535e20b0ebdeee4225a1a59f0ae159331a"
+    },
+    {
+        "category": "company",
+        "datetime": 1735925944,
+        "headline": "Rivian stock surges to start the year on better-than-expected EV deliveries",
+        "id": 132255316,
+        "image": "https://s.yimg.com/ny/api/res/1.2/LgGUHbv_T0h8i8Rm1Ssp5Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/d5c9ba80-c9f6-11ef-8e9d-7cdc92d4ca5a",
+        "related": "RIVN",
+        "source": "Yahoo",
+        "summary": "Rivian stock soared Friday after the electric truck maker reported better than expected vehicle sales for its quarter ending Dec. 31.",
+        "url": "https://finnhub.io/api/news?id=8063794a9e61ebcd1475d524f285327f18cc35c291cabdea88b657af2ff92492"
+    },
+    {
+        "category": "company",
+        "datetime": 1735925682,
+        "headline": "Here's Why Lucid Stock Rose Again Today",
+        "id": 132255317,
+        "image": "https://g.foolcdn.com/editorial/images/802756/stocks-climbing-green-bull-market.jpg",
+        "related": "RIVN",
+        "source": "Yahoo",
+        "summary": "Shares of Lucid Group (NASDAQ: LCID) are rising sharply today.  While the electric vehicle (EV) maker hasn't yet released its own fourth-quarter production and delivery figures, data from its peers is giving investors reason to be optimistic.  Investors spent much of 2024 worrying that consumer demand for EVs was dropping.",
+        "url": "https://finnhub.io/api/news?id=c49d178b04558ca82d426fc9be1f73523b0f055d791596e3ee3e5c179eb6231a"
+    },
+    {
+        "category": "company",
+        "datetime": 1735923480,
+        "headline": "Rivian Production Falls. Why the Stock Is Jumping.",
+        "id": 132258480,
+        "image": "",
+        "related": "RIVN",
+        "source": "Yahoo",
+        "summary": "Rivian  stock rocketed higher Friday after the company reported its fourth-quarter sales and production and issued a positive update on a supply-chain snag.  Investors are probably more excited by the supply-chain news.  It delivered 14,183 vehicles, up just 2% from a year earlier.",
+        "url": "https://finnhub.io/api/news?id=5a33677ba8e5c2bd81df484ae08b0b9b06ae22bea10412c2b771b8c8b0246d37"
+    }
+]

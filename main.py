@@ -14,7 +14,7 @@ PASSWORD = os.getenv("RH_PASSWORD")
 alphanumeric_code = os.getenv("alphanumeric_code")
 
 from src import *
-from src.follow_MyStock import save_holdings
+from src.follow_MyStock import save_holdings,dig_oppoturnity
 from src.analysis import analysis_main
 from src.gpt import gpt_main
 from src.mail import mail_main
@@ -26,6 +26,7 @@ def main():
 
     threading_list = []
     threading_list.append(threading.Thread(target=save_holdings))
+    threading_list.append(threading.Thread(target=dig_oppoturnity))
     threading_list.append(threading.Thread(target=analysis_main))
     threading_list.append(threading.Thread(target=gpt_main))
     threading_list.append(threading.Thread(target=mail_main))

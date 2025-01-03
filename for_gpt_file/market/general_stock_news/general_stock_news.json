@@ -1,6 +1,72 @@
 [
     {
         "category": "top news",
+        "datetime": 1735934299,
+        "headline": "Jeff Bezos says everything on Earth is better than it was 50 years ago\u2014except for 1 thing",
+        "id": 7438116,
+        "image": "https://image.cnbcfm.com/api/v1/image/108071592-1733351937711-gettyimages-2188276479-mms16977_ra163a6t.jpeg?v=1733352033&w=1920&h=1080",
+        "related": "",
+        "source": "CNBC",
+        "summary": "Amazon founder Jeff Bezos says the \"good old days\" are a myth, and everything is getting better \u2014 except for the state of Earth's natural environment.",
+        "url": "https://www.cnbc.com/2025/01/03/jeff-bezos-everything-on-earth-is-getting-better-except-environment.html"
+    },
+    {
+        "category": "top news",
+        "datetime": 1735932234,
+        "headline": "Here's why one of our favorite industrial stocks is up more than 3% Friday",
+        "id": 7438113,
+        "image": "https://image.cnbcfm.com/api/v1/image/106862138-1617199897295-gettyimages-1159907411-244635final.jpeg?v=1731514424&w=1920&h=1080",
+        "related": "",
+        "source": "CNBC",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "url": "https://www.cnbc.com/2025/01/03/heres-why-one-of-our-favorite-industrial-stocks-is-up-over-3percent-friday.html"
+    },
+    {
+        "category": "top news",
+        "datetime": 1735931760,
+        "headline": "House speaker election: Betting markets give Mike Johnson strong chance of getting job after setbacks in 1st vote",
+        "id": 7438109,
+        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
+        "related": "",
+        "source": "MarketWatch",
+        "summary": "An initial round of voting in the U.S. House of Representatives\u00a0looked like it wouldn\u2019t deliver a speaker\u00a0on Friday, as Louisiana Republican Mike Johnson faced opposition from too many fellow GOP lawmakers.",
+        "url": "https://www.marketwatch.com/story/house-speaker-election-betting-markets-give-mike-johnson-strong-chance-of-getting-job-after-setbacks-in-1st-vote-2d09283e"
+    },
+    {
+        "category": "top news",
+        "datetime": 1735930740,
+        "headline": "Today\u2019s newborns may need $5 million or more for retirement starting in 2100",
+        "id": 7438102,
+        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
+        "related": "",
+        "source": "MarketWatch",
+        "summary": "Generation Beta could face a major shortfall in savings in 75 years if things don\u2019t change.",
+        "url": "https://www.marketwatch.com/story/todays-newborns-may-need-5-million-or-more-for-retirement-starting-in-2100-7103332e"
+    },
+    {
+        "category": "top news",
+        "datetime": 1735928220,
+        "headline": "Stocks will struggle under Trump if this rate keeps going higher",
+        "id": 7438095,
+        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
+        "related": "",
+        "source": "MarketWatch",
+        "summary": "U.S. debt concerns and higher Treasury yields may be stumbling blocks for stocks in 2025.",
+        "url": "https://www.marketwatch.com/story/stocks-will-struggle-under-trump-if-this-rate-keeps-going-higher-c83f62ea"
+    },
+    {
+        "category": "top news",
+        "datetime": 1735927320,
+        "headline": "China\u2019s economy still hasn\u2019t fully emerged from the pandemic as a new year dawns",
+        "id": 7438094,
+        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
+        "related": "",
+        "source": "MarketWatch",
+        "summary": "Weak consumer demand is just one of a range of factors plaguing the economy as the calendar turns from 2024 to 2025, even after policy makers meted out stimulus measures throughout the past year.",
+        "url": "https://www.marketwatch.com/story/chinas-economy-still-hasnt-fully-emerged-from-the-pandemic-as-a-new-year-dawns-badbf1b6"
+    },
+    {
+        "category": "top news",
         "datetime": 1735926120,
         "headline": "Apple offers rare iPhone discounts in China as foreign smartphone sales drop",
         "id": 7438089,
@@ -1032,71 +1098,5 @@
         "source": "MarketWatch",
         "summary": "Facebook\u2019s founder and CEO has sold a record of more than $2 billion of Meta\u2019s stock this year.",
         "url": "https://www.marketwatch.com/story/zuckerberg-is-cashing-in-on-metas-record-stock-price-with-fresh-share-sales-fc1afd79"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735648200,
-        "headline": "These 20 stocks in the S&P 500 rose the most in 2024",
-        "id": 7437477,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "Big Tech led another banner year for the U.S. large-cap benchmark stock index.",
-        "url": "https://www.marketwatch.com/story/these-20-stocks-in-the-s-p-500-rose-the-most-in-2024-af73386c"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735646400,
-        "headline": "Retail investors never had so many ways to invest. What\u2019s at stake in 2025.",
-        "id": 7437476,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "New technology can make investing easier \u2014 or more complicated \u2014 for retail investors.",
-        "url": "https://www.marketwatch.com/story/retail-investors-never-had-so-many-ways-to-invest-whats-at-stake-in-2025-6575c163"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735645020,
-        "headline": "Here\u2019s the 2025 surprise that could cause a 10% to 15% stock correction",
-        "id": 7437468,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "Strategist Jim Paulsen says the economic backdrop is pointing to a slowdown in 2025 and this could drive down stocks.",
-        "url": "https://www.marketwatch.com/story/heres-the-2025-surprise-that-could-cause-a-10-to-15-stock-correction-a2a9f8ce"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735642800,
-        "headline": "It has been another disappointing year for bonds. Why now isn\u2019t the time to throw in the towel.",
-        "id": 7437467,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "Longer bond yields are on pace for their biggest four-year climb since 1981 \u2014 the tail end of Jimmy Carter\u2019s presidency.",
-        "url": "https://www.marketwatch.com/story/it-has-been-another-disappointing-year-for-bonds-why-now-isnt-the-time-to-throw-in-the-towel-2a654370"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735640160,
-        "headline": "These are the most popular Moneyist columns of 2024",
-        "id": 7437461,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "Divorce, student debt, airline travel, house purchases and inheritance comprised the top 5 most read columns of the year.",
-        "url": "https://www.marketwatch.com/story/these-are-the-most-popular-moneyist-columns-of-2024-69fbbf4a"
-    },
-    {
-        "category": "top news",
-        "datetime": 1735639560,
-        "headline": "I\u2019m the executor of my 90-year-old aunt\u2019s estate. A neighbor threatened me and wants to buy her house. What should I do?",
-        "id": 7437456,
-        "image": "https://static2.finnhub.io/file/publicdatany/finnhubimage/market_watch_logo.png",
-        "related": "",
-        "source": "MarketWatch",
-        "summary": "\u201cI believe she doesn\u2019t have that much time left.\u201d",
-        "url": "https://www.marketwatch.com/story/im-the-executor-of-my-90-year-old-aunts-estate-a-neighbor-threatened-me-and-wants-to-buy-her-house-what-should-i-do-d84ee5c4"
     }
 ]

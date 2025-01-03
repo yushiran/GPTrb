@@ -1,6 +1,17 @@
 [
     {
         "category": "company",
+        "datetime": 1735901280,
+        "headline": "Did Costco just reset the narrative around DEI?",
+        "id": 132257990,
+        "image": "https://imgproxy.divecdn.com/uHs6Rty--U_z5qrQV0erX6TM9EqU_vl9CtMeTbMuB7s/g:nowe:0:94/c:799:451/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xNTQzMzUzODE2Ml85NTM0NTVjMzE5X2MuanBn.webp",
+        "related": "COST",
+        "source": "Yahoo",
+        "summary": "In contrast to a slew of companies, the warehouse retailer has forcefully rejected an anti-DEI shareholder proposal as bad for business.",
+        "url": "https://finnhub.io/api/news?id=1ec95cbd40ad4f9261dc4cf2572d110ce472cffbe1c003c77c4a651058b02cca"
+    },
+    {
+        "category": "company",
         "datetime": 1735813800,
         "headline": "Big Retail Gets Bigger as Smaller Players Struggle",
         "id": 132237685,
@@ -42,16 +53,5 @@
         "source": "Yahoo",
         "summary": "A new development in Los Angeles includes plans for 800 apartments and a rooftop pool above the bulk-goods warehouse.",
         "url": "https://finnhub.io/api/news?id=ba30bc61b91809a205bc38bf4b06e03e2e350bfbf01e385764851d287592d91e"
-    },
-    {
-        "category": "company",
-        "datetime": 1735649407,
-        "headline": "Costco board pushes back against anti-DEI shareholder proposal",
-        "id": 132214538,
-        "image": "https://media.zenfs.com/en/tipranks_452/ea52b62d3dcf3ae7154bc31131a2fc0e",
-        "related": "COST",
-        "source": "Yahoo",
-        "summary": "Costco\u2019s (COST) board of directors has unanimously recommended that shareholders vote against a proposal brought by the National Center for Public Policy Research, which would require the company to evaluate and issue a report on the financial risks of maintaining its diversity and inclusion goals, according to a proxy statement to investors. \u201cAmong other things, a diverse group of employees helps bring originality and creativity to our merchandise offerings, promoting the \u2018treasure hunt\u2019 that o",
-        "url": "https://finnhub.io/api/news?id=da68703e8e54bb6ca5d0fbe64d7256f050ef346d2132389288ed231546419878"
     }
 ]

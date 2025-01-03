@@ -1,0 +1,35 @@
+[
+    {
+        "category": "company",
+        "datetime": 1735920547,
+        "headline": "SoundHound Rival Cerence AI Scores Nvidia Automotive Pact. Shares Surge.",
+        "id": 132255843,
+        "image": "https://media.zenfs.com/en/ibd.com/00885c5fe1d2ecfded3472bf79ad7975",
+        "related": "CRNC",
+        "source": "Yahoo",
+        "summary": "Cerence AI, a rival of SoundHound, announced an automotive pact with Nvidia. Cerence stock popped, SoundHound stock also gained.",
+        "url": "https://finnhub.io/api/news?id=b23807124cb2fcbb41787a95c2a665eb6114b0fd6062ab92fe1495a4ec1185aa"
+    },
+    {
+        "category": "company",
+        "datetime": 1735909200,
+        "headline": "Cerence AI Expands Collaboration with NVIDIA to Advance its CaLLM Family of Language Models",
+        "id": 132255844,
+        "image": "https://s.yimg.com/ny/api/res/1.2/MjI5ikBoleIaLvb3pyrRig--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0yMjE-/https://media.zenfs.com/en/globenewswire.com/5b7beab034ebbf2e3f434e7282b27574",
+        "related": "CRNC",
+        "source": "Yahoo",
+        "summary": "Company will leverage the NVIDIA AI Enterprise software platform, including the NVIDIA TensorRT-LLM open-source library and the NVIDIA NeMo framework, to optimize performanceBURLINGTON, Mass., Jan. 03, 2025 (GLOBE NEWSWIRE) -- Cerence Inc. (NASDAQ: CRNC) (\u201cCerence AI\u201d), a global industry leader in voice AI, today announced an expanded collaboration with NVIDIA to advance the capabilities of its CaLLM\u2122 family of language models, including its cloud-based Cerence Automotive Large Language Model (C",
+        "url": "https://finnhub.io/api/news?id=89ddeb060672ab7c76c82d9b422988f8ea83fa185eec0d23ee6ec87e25e89fcc"
+    },
+    {
+        "category": "company",
+        "datetime": 1735822800,
+        "headline": "Cerence AI Signs Long-Term, Strategic Partnership to Build Luxury Automaker\u2019s Next-Gen In-Car Experience",
+        "id": 132241221,
+        "image": "https://s.yimg.com/ny/api/res/1.2/MjI5ikBoleIaLvb3pyrRig--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0yMjE-/https://media.zenfs.com/en/globenewswire.com/5b7beab034ebbf2e3f434e7282b27574",
+        "related": "CRNC",
+        "source": "Yahoo",
+        "summary": "BURLINGTON, Mass., Jan. 02, 2025 (GLOBE NEWSWIRE) -- Cerence Inc. (NASDAQ: CRNC) (\u201cCerence AI\u201d), a global industry leader in AI for transportation, today announced a multi-year agreement with JLR to develop the luxury automotive\u2019s next-generation in-car experience. The companies will partner to leverage Cerence\u2019s AI-enabled technologies to deliver advanced intelligence and capabilities to JLR customers globally. The companies will continue to work together to expand and improve the JLR in-car ex",
+        "url": "https://finnhub.io/api/news?id=b62cf96faec213ae0e15de34503b38864ad837691b3db84a8b5996c09563edd8"
+    }
+]

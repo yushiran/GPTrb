@@ -1,0 +1,57 @@
+[
+    {
+        "category": "company",
+        "datetime": 1735929909,
+        "headline": "What to know about Apple's $95 million settlement of the snooping Siri case",
+        "id": 132256974,
+        "image": "https://s.yimg.com/ny/api/res/1.2/vZYM.lEs3zFwJXEUVk3zJg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NjI-/https://media.zenfs.com/en/ap_finance_articles_694/580860d0e64e57b3370995e9d9dfe483",
+        "related": "AAPL",
+        "source": "Yahoo",
+        "summary": "Apple has agreed to pay $95 million to settle a lawsuit that accused the company of turning its virtual assistant Siri into a snoop that eavesdropped on the users of iPhones and other trendy devices in a betrayal to its long-standing commitment to personal privacy.  The proposed settlement filed in federal court earlier this week still needs to be approved by a judge, but here are a few things to know about the case and the privacy issues that it raised.  The Wood Law Firm, which specializes in class-action lawsuits, filed the complaint against Apple in August 2019, shortly after The Guardian newspaper published an article alleging that Siri's microphone had been surreptitiously turned on to record conversations occurring without the users' knowledge.",
+        "url": "https://finnhub.io/api/news?id=179bfd523bcb503929290862f635fe50503c894169310db8a98716ad5c3f8aa3"
+    },
+    {
+        "category": "company",
+        "datetime": 1735920879,
+        "headline": "Apple Faces Pressure as UBS Adjusts iPhone Sales and Revenue Forecasts",
+        "id": 132256975,
+        "image": "https://media.zenfs.com/en/us.finance.gurufocus/f6d5f9d51b104961cf24aa8d5b100889",
+        "related": "AAPL",
+        "source": "Yahoo",
+        "summary": "December quarter iPhone shipments are projected at 74 million units, down 5% YoY.",
+        "url": "https://finnhub.io/api/news?id=e8745e740727c3aae40d4378b09005946c40561ba2063e4af2405ace42c7ca80"
+    },
+    {
+        "category": "company",
+        "datetime": 1735918899,
+        "headline": "Nvidia stock jumps, leads 'Magnificent 7' gains to start 2025 after end-of-year tech sell-off",
+        "id": 132255325,
+        "image": "https://s.yimg.com/ny/api/res/1.2/H_jGBjxwQOynIJFWLUK4_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-12/e7b0aa00-bcd7-11ef-bd2f-65a0cdcaeb18",
+        "related": "AAPL",
+        "source": "Yahoo",
+        "summary": "Nvidia stock led the so-called \u201cMagnificent 7\u201d tech stocks higher to start the year after a group-wide selloff in the last days of 2024.",
+        "url": "https://finnhub.io/api/news?id=121c9ba6d4136ed672ef81c239293d6b4b75aa74f8cfec0790b0c764965e26d3"
+    },
+    {
+        "category": "company",
+        "datetime": 1735912816,
+        "headline": "Investors Heavily Search Apple Inc. (AAPL): Here is What You Need to Know",
+        "id": 132256977,
+        "image": "https://media.zenfs.com/en/zacks.com/26a86d59f0e8f1e82a35a92ae5684cd9",
+        "related": "AAPL",
+        "source": "Yahoo",
+        "summary": "Zacks.com users have recently been watching Apple (AAPL) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+        "url": "https://finnhub.io/api/news?id=ee1a4370292874966dd5c2f2502885d67949477eb1e48ba2a2843e241abf624d"
+    },
+    {
+        "category": "company",
+        "datetime": 1735910727,
+        "headline": "Apple has agreed to pay $95 million over Siri's alleged eavesdropping",
+        "id": 132256978,
+        "image": "https://media.zenfs.com/en/quartz.com/c84c92323b1d5c49ed14f07403aa6b15",
+        "related": "AAPL",
+        "source": "Yahoo",
+        "summary": "Tech giant Apple (AAPL) has agreed to pay $95 million to settle a proposed cash action lawsuit over allegations that it used its virtual assistant to eavesdrop on iPhone users.",
+        "url": "https://finnhub.io/api/news?id=ff048c7c66920a8e99f293f504858fbdc504d58a0e5c46c51b4185b82dbab5de"
+    }
+]

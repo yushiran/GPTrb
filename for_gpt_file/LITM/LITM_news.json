@@ -1,6 +1,17 @@
 [
     {
         "category": "company",
+        "datetime": 1735913868,
+        "headline": "Snow Lake Resources: The Recent Spike In Volume May Be Justified; Catalysts Ahead",
+        "id": 132256717,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1058393646/image_1058393646.jpg?io=getty-c-w1536",
+        "related": "LITM",
+        "source": "SeekingAlpha",
+        "summary": "Snow Lake Resources has an extended cash runway from two recent equity financing rounds. Click here to find out why I rate LITM as a Strong Buy.",
+        "url": "https://finnhub.io/api/news?id=a2aad2f843cce0bd235dbbd5c1e3642385a5a5bc285d1ded3eba2628458799c7"
+    },
+    {
+        "category": "company",
         "datetime": 1735850378,
         "headline": "Sector Update: Energy Stocks Gain Late Afternoon",
         "id": 132242797,
@@ -42,16 +53,5 @@
         "source": "Yahoo",
         "summary": "Winnipeg, Manitoba--(Newsfile Corp. - December 31, 2024) - Snow Lake Resources Ltd., d/b/a Snow Lake Energy (NASDAQ: LITM) (\"Snow Lake\"), announces that following two successful financings raising in excess of $20M USD (before costs) it is sufficiently funded to both aggressively explore its global portfolio of projects and to make further high impact value accretive acquisitions and investments in the next generation and clean energy minerals space.Exploration Program HighlightsOur immediate ex",
         "url": "https://finnhub.io/api/news?id=72fab10602d50778a388c8896c76cc2bf2778a3b94290dbecf7e3f63b7a4c202"
-    },
-    {
-        "category": "company",
-        "datetime": 1735662840,
-        "headline": "Snow Lake Announces Closing of Public Offering for Gross Proceeds of US$15 Million",
-        "id": 132216160,
-        "image": "https://media.zenfs.com/en/newsfile_64/794dfe5e6324863497780dcabfd5e79e",
-        "related": "LITM",
-        "source": "Yahoo",
-        "summary": "Winnipeg, Manitoba--(Newsfile Corp. - December 31, 2024) - Snow Lake Resources Ltd., (NASDAQ: LITM) d/b/a Snow Lake Energy (\"Snow Lake\" or the \"Company\"), a uranium exploration company, today announced the closing of its previously announced best-efforts public offering of 18,750,000 common shares at a public offering price of US$0.80 per share, for gross proceeds of approximately US$15.0 million before placement agent fees and offering expenses.Snow Lake intends to use the net proceeds from the",
-        "url": "https://finnhub.io/api/news?id=9931d9ac50477c06326e426863228fdd48768402cf02f287b4ddb72499704211"
     }
 ]

@@ -1,6 +1,50 @@
 [
     {
         "category": "company",
+        "datetime": 1735931820,
+        "headline": "Ford, GM Grew EV Sales Faster Than Tesla. What It Means for the Stocks.",
+        "id": 132256823,
+        "image": "",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Tesla  fourth-quarter sales didn\u2019t live up to lofty expectations.  Ford Motor and General Motors on Friday reported their year-end U.S. delivery figures.  Ford stock was up 2.4% in afternoon trading, while the  and  were up 1.3% and 0.8%, respectively.",
+        "url": "https://finnhub.io/api/news?id=8965442bc98ea3dd441dd6667a7437329b8232dd0bd08fe56824e2bc1403a1dd"
+    },
+    {
+        "category": "company",
+        "datetime": 1735929480,
+        "headline": "Tesla trades more on 'tectonic' narratives, headlines: RBC analyst",
+        "id": 132256824,
+        "image": "https://s.yimg.com/ny/api/res/1.2/1SanpfNDtqo_F1_9xrCz0Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/ec050490-c9ff-11ef-b3f1-993ec4f82344",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Rivian (RIVN) shares surged by over 13% Friday morning \u2014 at the time of this video's posting in the afternoon, shares are currently up by over 22% \u2014 after beating fourth quarter EV delivery estimates: posting nearly 14,200 EVs during the fourth quarter and delivering nearly 51,580 electric trucks in 2024. On the other hand, Tesla (TSLA) saw a decline in its annual EV sales for the first time in over a decade. RBC Capital Markets Global Autos Analyst Tom Narayan joins the Morning Brief team to weigh in on the two electric automakers' recent performances. \"I think it's both of those may be overanalyzed a little too much,\" Narayan tells Brad Smith and Madison Mills. \"For the Rivian one, we knew the company told us that Q4 was going to be stronger than Q3, they had a supply issue in Q3. The Q4 delivery number was actually consistent with their guidance.\" Narayan explains that while Tesla came out below consensus estimates, its EV delivery results were \"still a solid number,\" noting the company to have gotten a boost this past quarter amid conversations around the future of its full self-driving (FSD) capabilities. To watch more expert insights and analysis on the latest market action, check out more Morning Brief here. This post was written by Josh Lynch",
+        "url": "https://finnhub.io/api/news?id=b115a85492abf37292c4912dc7f4bfbbc6b6753e83b05c18f1b89667f7b43afb"
+    },
+    {
+        "category": "company",
+        "datetime": 1735926660,
+        "headline": "Tesla Stock Rises After Analyst Price Target Increase. So Much for the Bear Market.",
+        "id": 132256825,
+        "image": "",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "The shares dropped more than 6% to start a new year of trading after the company reported weaker-than-expected fourth-quarter deliveries.",
+        "url": "https://finnhub.io/api/news?id=41d43724c5275ccf7553a0deb69f6ae2e44c16ae642a68844d675892bb62aaf2"
+    },
+    {
+        "category": "company",
+        "datetime": 1735926180,
+        "headline": "GM, Ford, Toyota Post U.S. Sales Gains in 2024",
+        "id": 132256583,
+        "image": "",
+        "related": "TSLA",
+        "source": "Yahoo",
+        "summary": "Demand for pickup trucks and hybrid vehicles helps automakers increase deliveries; challenges loom for \u201825.",
+        "url": "https://finnhub.io/api/news?id=5be5d467947d1c4bfa4e33e7f71ae2a4fbfd01a6ace13abaa2ae4832f261d23a"
+    },
+    {
+        "category": "company",
         "datetime": 1735925944,
         "headline": "Rivian stock surges to start the year on better-than-expected EV deliveries",
         "id": 132255316,
@@ -9,49 +53,5 @@
         "source": "Yahoo",
         "summary": "Rivian stock soared Friday after the electric truck maker reported better than expected vehicle sales for its quarter ending Dec. 31.",
         "url": "https://finnhub.io/api/news?id=8063794a9e61ebcd1475d524f285327f18cc35c291cabdea88b657af2ff92492"
-    },
-    {
-        "category": "company",
-        "datetime": 1735925682,
-        "headline": "Here's Why Lucid Stock Rose Again Today",
-        "id": 132255317,
-        "image": "https://g.foolcdn.com/editorial/images/802756/stocks-climbing-green-bull-market.jpg",
-        "related": "TSLA",
-        "source": "Yahoo",
-        "summary": "Shares of Lucid Group (NASDAQ: LCID) are rising sharply today.  While the electric vehicle (EV) maker hasn't yet released its own fourth-quarter production and delivery figures, data from its peers is giving investors reason to be optimistic.  Investors spent much of 2024 worrying that consumer demand for EVs was dropping.",
-        "url": "https://finnhub.io/api/news?id=c49d178b04558ca82d426fc9be1f73523b0f055d791596e3ee3e5c179eb6231a"
-    },
-    {
-        "category": "company",
-        "datetime": 1735900680,
-        "headline": "These Stocks Are Moving the Most Today: Tesla, U.S. Steel, Nvidia, Apple, Vistra, and More",
-        "id": 132251064,
-        "image": "",
-        "related": "TSLA",
-        "source": "Yahoo",
-        "summary": "Tesla stock rises after shares of the electric-vehicle maker tumbled following weaker-than-expected deliveries, while reports say President Biden plans to block the sale of U.S. Steel to Japan\u2019s Nippon Steel.",
-        "url": "https://finnhub.io/api/news?id=80d42b091ba24ee1693ee154cff7cd61d9168b34080299d7b7442001b854175c"
-    },
-    {
-        "category": "company",
-        "datetime": 1735924454,
-        "headline": "Why Tesla (TSLA) May Need To Stop Selling Cars To Hit $10k Per Share",
-        "id": 132255319,
-        "image": "https://s.yimg.com/ny/api/res/1.2/R3DsTXHuX1Up50du0B.awA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/1277c6032fd09b727a10249a170024cf",
-        "related": "TSLA",
-        "source": "Yahoo",
-        "summary": "Wild price targets on Tesla stock aren\u2019t uncommon. But no matter how ridiculous a price target some analysts set, the stock races up to reach it. A similar occurrence was observed when Alexandra Merz, CEO of L&F Services, came out with a price target of $10,000 on the stock! Strangely enough, this involves a scenario [\u2026]",
-        "url": "https://finnhub.io/api/news?id=25ce37a70d681f31e059b37178493561ecb2f1d771f7d60302a03ea775b59996"
-    },
-    {
-        "category": "company",
-        "datetime": 1735923540,
-        "headline": "Ford, GM Outgrew Tesla EV Sales. The Stocks Are Up.",
-        "id": 132255320,
-        "image": "",
-        "related": "TSLA",
-        "source": "Yahoo",
-        "summary": "Tesla  fourth-quarter sales didn\u2019t live up to lofty expectations.  Ford Motor  and  General Motors  on Friday reported their year-end U.S. delivery figures.  Ford stock was up 0.7% in midday trading, while the  and  were up 0.7% and 0.5%, respectively.",
-        "url": "https://finnhub.io/api/news?id=02bd18bc02446c5a213e5d0b1cecd7397dd084a068951a26e2950521bbd91b9f"
     }
 ]

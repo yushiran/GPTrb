@@ -12,6 +12,17 @@
     },
     {
         "category": "company",
+        "datetime": 1735903724,
+        "headline": "XPENG Reports Strong Vehicle Delivery Growth in Q4 2024",
+        "id": 132251467,
+        "image": "",
+        "related": "XPEV",
+        "source": "Yahoo",
+        "summary": "XPeng, Inc. ADR ( (XPEV) ) has issued an update. XPENG Inc. reported a significant increase in vehicle deliveries for December and the fourth quarter of 2024, reaching 36,695 units in December, marking an 82% year-over-year increase. The company delivered 91,507 units in Q4, a 52% increase year-over-year, and 190,068 units for the entire year, up 34% from the previous year. The MONA M03 model exceeded 10,000 deliveries for the fourth consecutive month, highlighting XPENG\u2019s rapid production and d",
+        "url": "https://finnhub.io/api/news?id=987392415f443c46c4b8f4d826e7a72038ed8fe6d2de5a4755482d7bab9588a7"
+    },
+    {
+        "category": "company",
         "datetime": 1735899841,
         "headline": "Tesla: Major Q4 Delivery Disappointment",
         "id": 132253772,
@@ -42,16 +53,5 @@
         "source": "SeekingAlpha",
         "summary": "BYD, NIO, Li Auto, XPeng, and ZEEKR lead the EV revolution with strong growth. Find out why these brands are poised for success in the evolving market.",
         "url": "https://finnhub.io/api/news?id=2e879fd7ade4b30d2774591a5eaf91c7a9388ee6d104202f9990b352d9deb9c8"
-    },
-    {
-        "category": "company",
-        "datetime": 1735840077,
-        "headline": "Estimating The Intrinsic Value Of XPeng Inc. (NYSE:XPEV)",
-        "id": 132242227,
-        "image": "https://media.zenfs.com/en/simply_wall_st__316/7665404e4784395f2fabaf0da7c7079d",
-        "related": "XPEV",
-        "source": "Yahoo",
-        "summary": "Key Insights The projected fair value for XPeng is US$10.98 based on 2 Stage Free Cash Flow to Equity XPeng's US$11.82...",
-        "url": "https://finnhub.io/api/news?id=88fc9b2a905790c586db5a1175fbf7f3dd8a92a828db4843e54052f508c5b2d9"
     }
 ]
