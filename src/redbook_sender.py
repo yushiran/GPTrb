@@ -76,7 +76,7 @@ XIAOHONGSHU_COOKING = f'{CURRENT_DIR}/../config/rb_config.json'
 
 def get_driver():
     options = Options()
-    options.add_argument("--headless")  # 无头模式，不打开浏览器界面
+    # options.add_argument("--headless")  # 无头模式，不打开浏览器界面
     options.add_argument("--no-sandbox")  # 避免沙盒错误
     options.add_argument("--disable-dev-shm-usage")  # 禁用开发共享内存
     options.add_argument("--remote-debugging-port=9222")  # 启用远程调试端口
@@ -91,7 +91,7 @@ def xiaohongshu_login(driver):
         print("cookies存在")
         with open(XIAOHONGSHU_COOKING) as f:
             cookies = json.loads(f.read())
-            driver.get("https://creator.xiaohongshu.com/creator/post")
+            driver.get("https://creator.xiaohongshu.com/publish/publish")
             driver.implicitly_wait(10)
             driver.delete_all_cookies()
             time.sleep(4)
@@ -133,155 +133,70 @@ def get_publish_date():
         tomorrow = tomorrow.replace(hour=20,minute=0)
     return tomorrow.strftime("%Y-%m-%d %H:%M")
 
-def publish_xiaohongshu_video(driver, mp4, index):
-    driver.find_element("xpath", '//*[text()="发布笔记"]').click()
-    print("开始上传文件", mp4[0])
-    time.sleep(3)
-    # ### 上传视频
-    vidoe = driver.find_element("xpath", '//input[@type="file"]')
-    vidoe.send_keys(mp4[0])
-
-    # 填写标题
-    content = mp4[1].replace('.mp4', '')
-    driver.find_element(
-        "xpath", '//*[@placeholder="填写标题，可能会有更多赞哦～"]').send_keys(content)
-
-    time.sleep(1)
-    # 填写描述
-    content_clink = driver.find_element(
-        "xpath", '//*[@placeholder="填写更全面的描述信息，让更多的人看到你吧！"]')
-    content_clink.send_keys(content)
-
-    time.sleep(3)
-    # #虐文推荐 #知乎小说 #知乎文
-    for label in ["#虐文","#知乎文","#小说推荐","#知乎小说","#爽文"]:
-        content_clink.send_keys(label)
-        time.sleep(1)
-        data_indexs = driver.find_elements(
-            "class name", "publish-topic-item")
-        try:
-            for data_index in data_indexs:
-                if(label in data_index.text):
-                    print("点击标签",label)
-                    data_index.click()
-                    break
-        except Exception:
-            traceback.print_exc()
-        time.sleep(1)
-
-    # 定时发布
-    dingshi = driver.find_elements(
-        "xpath", '//*[@class="css-1v54vzp"]')
-    time.sleep(4)
-    print("点击定时发布")
-    dingshi[3].click()
-    time.sleep(5)
-    input_data = driver.find_element("xpath", '//*[@placeholder="请选择日期"]')
-    input_data.send_keys(Keys.CONTROL,'a')     #全选
-    # input_data.send_keys(Keys.DELETE)
-    input_data.send_keys(get_publish_date())    
-    time.sleep(3)
-    # driver.find_element("xpath", '//*[text()="确定"]').click()
-
-    # 等待视频上传完成
-    while True:
-        time.sleep(10)
-        try:
-            driver.find_element("xpath",'//*[@id="publish-container"]/div/div[2]/div[2]/div[6]/div/div/div[1]//*[contains(text(),"重新上传")]')
-            break
-        except Exception as e:
-            traceback.print_exc()
-            print("视频还在上传中···")
-    
-    print("视频已上传完成！")
-    time.sleep(3)
-    # 发布
-    driver.find_element("xpath", '//*[text()="发布"]').click()
-    print("视频发布完成！")
-    time.sleep(10)
-
 def publish_xiaohongshu_image(driver, image_path,title,describe,keywords):
     time.sleep(3)
-    driver.find_element("xpath", '//*[text()="发布笔记"]').click()
-    print("开始上传图片")
-    time.sleep(3)
-    # ### 上传图片
-    driver.find_element("xpath", '//*[text()="上传图文"]').click()
-    push_file = driver.find_element("xpath", '//input[@type="file"]')
+
+    html = driver.page_source
+    driver.find_element(By.XPATH, '//span[@class="title" and text()="上传图文"]').click()
+    push_file = driver.find_element(By.CSS_SELECTOR, 'input.upload-input[type="file"][multiple][accept=".jpg,.jpeg,.png,.webp"]')
     file_names = os.listdir(image_path)
     # 打印所有文件名
     for file_name in file_names:
-        push_file.send_keys(image_path + "\\"+file_name)
+        canonical_path = os.path.abspath(f"{image_path}/{file_name}")
+        push_file.send_keys(canonical_path)
 
     # 填写标题
     driver.find_element(
-        "xpath", '//*[@placeholder="填写标题，可能会有更多赞哦～"]').send_keys(title)
+        By.XPATH, '//input[@placeholder="填写标题会有更多赞哦～"]').send_keys(title)
 
     time.sleep(1)
     # 填写描述
     content_clink = driver.find_element(
-        "xpath", '//*[@placeholder="填写更全面的描述信息，让更多的人看到你吧！"]')
+        By.XPATH, '//div[@class="ql-editor ql-blank" and @contenteditable="true" and @aria-owns="quill-mention-list" and @data-placeholder="输入正文描述，真诚有价值的分享予人温暖"]')
     content_clink.send_keys(describe)
 
     time.sleep(3)
-    # #虐文推荐 #知乎小说 #知乎文
+
     for label in keywords:
         content_clink.send_keys(label)
         time.sleep(1)
-        data_indexs = driver.find_elements(
-            "class name", "publish-topic-item")
+        # 直接找到id是quill-mention-item-0的元素然后点击
         try:
-            for data_index in data_indexs:
-                if(label in data_index.text):
-                    print("点击标签",label)
-                    data_index.click()
-                    break
+            mention_item = driver.find_element(By.ID, 'quill-mention-item-0')
+            mention_item.click()
+            print("点击标签", label)
         except Exception:
             traceback.print_exc()
         time.sleep(1)
 
-    # 定时发布
-    dingshi = driver.find_elements(
-        "xpath", '//*[@class="css-1v54vzp"]')
-    time.sleep(4)
-    print("点击定时发布")
-    dingshi[3].click()
-    time.sleep(5)
-    input_data = driver.find_element("xpath", '//*[@placeholder="请选择日期"]')
-    input_data.send_keys(Keys.CONTROL,'a')     #全选
-    # input_data.send_keys(Keys.DELETE)
-    input_data.send_keys(get_publish_date())
-    time.sleep(3)
-    # driver.find_element("xpath", '//*[text()="确定"]').click()
-
     # 发布
-    driver.find_element("xpath", '//*[text()="发布"]').click()
+    driver.find_element(By.XPATH, '//*[text()="发布"]').click()
     print("图文发布完成！")
     time.sleep(10)
 
 
 def rb_main():
-    # Read text from a txt file
-    txt_file_path = f"{CURRENT_DIR}/../json/today_recommadation.txt"
-    with open(txt_file_path, 'r', encoding='utf-8') as file:
-        text = file.read().strip()
-    output_image_path = f"{CURRENT_DIR}/../json/today_recommedation.png"
-    imgae_path = string_to_vertical_image(text=text, output_path=output_image_path)
+    while True:
+        current_time = time.localtime()
+        if current_time.tm_hour == 15 and current_time.tm_min == 35:
+            current_time = time.localtime()
+            today_date = time.strftime("%m-%d", current_time)
+            print(f"Today's date is: {today_date}")
+            try:
+                title = f"ChatGPT勇闯美股 {today_date}"
+                keywords = ['#python','#美股','#股票','#投资', 'ChatGPT', 'AI','Quant']
+                describe = '个人工具分享，不构成投资建议'
+                driver = get_driver()
+                xiaohongshu_login(driver=driver)
+                publish_xiaohongshu_image(driver, image_path = f"{CURRENT_DIR}/../json/redbook_pic", title=title,keywords=keywords,describe=describe)
+                print('finished')
+            finally:
+                if driver:
+                    driver.quit()
 
-    # try:
-    #     title = "测试下"
-    #     describe = ['#python','#美股','#股票','#投资']
-    #     driver = get_driver()
-    #     xiaohongshu_login(driver=driver)
-    #     # publish_xiaohongshu_video(driver, r"D:\workspace\script\push_to_xiaohongshu\out\9.png", 1)
-    #     publish_xiaohongshu_image(driver, image_path = f"{CURRENT_DIR}/../json/today_recommedation.png", title=title,describe=describe)
-    #     print('finished')
-    # finally:
-    #     if driver:
-    #         driver.quit()
+            print('Redbook Sender is done')
 
-
-    print('Redbook Sender is done')
+            time.sleep(60)
 
 if __name__=='__main__':
     rb_main()
