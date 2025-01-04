@@ -5,15 +5,29 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 import time
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email import encoders
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def send_email(subject, body, sender, receivers, smtp_server, smtp_port, smtp_password):
+def send_email(subject, body, sender, receivers, smtp_server, smtp_port, smtp_password, attachment_path=None):
     # 创建邮件内容
-    message = MIMEText(body, 'plain', 'utf-8')
+    message = MIMEMultipart()
     message['From'] = Header("Sender<%s>" % sender)  # 发送者
     message['To'] = Header("Receiver<%s>" % receivers[0])  # 接收者
-
     message['Subject'] = Header(subject, 'utf-8')  # 设置邮件主题
+
+    # 添加邮件正文
+    message.attach(MIMEText(body, 'plain', 'utf-8'))
+
+    # 添加附件
+    if attachment_path:
+        with open(attachment_path, 'rb') as attachment:
+            mime_base = MIMEBase('application', 'octet-stream')
+            mime_base.set_payload(attachment.read())
+            encoders.encode_base64(mime_base)
+            mime_base.add_header('Content-Disposition', f'attachment; filename={os.path.basename(attachment_path)}')
+            message.attach(mime_base)
 
     try:
         server = smtplib.SMTP_SSL(smtp_server, smtp_port)
@@ -37,6 +51,7 @@ def mail_main():
             smtp_server = os.getenv("smtp_server")
             smtp_port = os.getenv("smtp_port")
             smtp_password = os.getenv("smtp_password")
+            attachment_path = f"{CURRENT_DIR}/../json/today_recommedation.png"  # 示例附件路径
             send_email(
                 subject=subject,
                 body=body,
@@ -44,8 +59,10 @@ def mail_main():
                 receivers=[receivers],  # 收件人邮箱，可以是一个列表
                 smtp_server=smtp_server,  # 邮件服务SMTP服务器地址
                 smtp_port=smtp_port,  # 邮件服务SMTP服务器端口（一般为587）
-                smtp_password=smtp_password  # 邮箱的密码或授权码
+                smtp_password=smtp_password,  # 邮箱的密码或授权码
+                attachment_path=attachment_path  # 附件路径
             )
+            time.sleep(60)
 
 # Example usage
 if __name__ == "__main__":

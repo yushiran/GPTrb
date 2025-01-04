@@ -13,6 +13,7 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 import sys
 sys.path.append(os.path.join(CURRENT_DIR, '..'))
 from src.analysis import get_stock_info, get_company_stock_news
+from src.redbook_sender import string_to_vertical_image
 prompt_file = f"{CURRENT_DIR}/../json/prompt.json"
 
 def gpt_funtion(object:str):
@@ -29,8 +30,8 @@ def gpt_funtion(object:str):
 
 def anysis_market():
     with open(prompt_file, "r") as file:
-        prompt_file = json.load(file)
-    prompt = prompt_file["general_recommendation"]
+        prompt_list = json.load(file)
+    prompt = prompt_list["general_recommendation"]
     llm = OpenAI(temperature=0.1, model="gpt-4o")
     documents = SimpleDirectoryReader(f"{CURRENT_DIR}/../for_gpt_file/market/general_stock_news").load_data()
     index = VectorStoreIndex.from_documents(documents,llm=llm)
@@ -55,7 +56,7 @@ def anysis_market():
         doucments = SimpleDirectoryReader(potential_stock_file_path).load_data()
         index = VectorStoreIndex.from_documents(doucments, llm=llm)
         query_engine = index.as_query_engine()
-        prompt = prompt_file["forecast_stock"]
+        prompt = prompt_list["forecast_stock"]
         stock_forecast = query_engine.query(prompt)
 
         response = response + stock+": " + str(stock_forecast) + "\n"
@@ -95,6 +96,17 @@ def gpt_main():
             gpt_advice.append(anysis_market())
 
             gpt_advice.append(find_opportunity())
+
+            with open(f"{CURRENT_DIR}/../json/today_recommadation.txt", "w") as file:
+                for advice in gpt_advice[-2:]:
+                    file.write(str(advice) + "\n")
+
+            # 转换为图片
+            txt_file_path = f"{CURRENT_DIR}/../json/today_recommadation.txt"
+            with open(txt_file_path, 'r', encoding='utf-8') as file:
+                text = file.read().strip()
+            output_image_path = f"{CURRENT_DIR}/../json/today_recommedation.png"
+            imgae_path = string_to_vertical_image(text=text, output_path=output_image_path)
 
             with open(f"{CURRENT_DIR}/../json/gpt_advice.txt", "w") as file:
                 for advice in gpt_advice:

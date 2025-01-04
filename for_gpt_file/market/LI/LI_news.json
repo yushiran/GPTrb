@@ -1,6 +1,17 @@
 [
     {
         "category": "company",
+        "datetime": 1735976294,
+        "headline": "BYD: Impressive Performance And Good Prospects (Rating Upgrade)",
+        "id": 132268114,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1937406352/image_1937406352.jpg?io=getty-c-w1536",
+        "related": "LI",
+        "source": "SeekingAlpha",
+        "summary": "BYD Company defied EV sector weakness in 2024 with strong fundamentals & market multiples indicating it's not overvalued.",
+        "url": "https://finnhub.io/api/news?id=717b431998784938a64e04d6b69b4253e191838b58884c6bef15392ac2ab1cd1"
+    },
+    {
+        "category": "company",
         "datetime": 1735903903,
         "headline": "XPeng: Positive Outlook Backed By Robust Deliveries Growth",
         "id": 132254548,
@@ -42,16 +53,5 @@
         "source": "Yahoo",
         "summary": "BYD, China\u2019s largest EV maker, delivered 207,734 all-electric vehicles in December, up about 9% year over year.  Tesla delivered just under 496,000 EVs in the fourth quarter.  Tesla sold 1.79 million, down about 1%.",
         "url": "https://finnhub.io/api/news?id=3626fe45059249abcc01795452dcd0558f24b3f073cc134716109ae75a286933"
-    },
-    {
-        "category": "company",
-        "datetime": 1735843455,
-        "headline": "Goldman Sachs Sees Strong Upside In Li Auto on New Model Pipeline and Autonomous Driving Advances",
-        "id": 132245029,
-        "image": "https://media.zenfs.com/en/Benzinga/8c5c1ebdfda1331e282d3c5580833053",
-        "related": "LI",
-        "source": "Yahoo",
-        "summary": "Goldman Sachs analyst Tina Hou maintained a Buy rating on Li Auto Inc (NASDAQ:LI) with a price target of $36. Li Auto is a leading pure New Energy Vehicle (NEV) player, with a 5% NEV market share in China as of the first quarter of 2024 (17% and 39% market share in China's premium PV and premium NEV market, respectively). As Hou noted, the company will have the most potent model pipeline of 5 new launches and the most vigorous sales network expansion of 400 stores in 2024. Also Read: Chinese Sto",
-        "url": "https://finnhub.io/api/news?id=eb7af2646d3297086f27e03e7f70b150db7d89460d57f264ccc48b0f6b85c607"
     }
 ]

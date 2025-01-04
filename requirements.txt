@@ -7,3 +7,5 @@ python-dotenv
 robin_stocks
 llama_index
 finnhub-python
+selenium
+webdriver-manager
