@@ -9,16 +9,5 @@
         "source": "Fintel",
         "summary": "",
         "url": "https://finnhub.io/api/news?id=2754d4f6a0fe4273c6e80c28f22331705e1c5710cd6630e1c06269e5cecb2ab2"
-    },
-    {
-        "category": "company",
-        "datetime": 1735834567,
-        "headline": "BOYD GAMING DONATES MORE THAN $200,000 IN 2024 'TREES OF HOPE' AND 'WREATHS OF HOPE' COMPETITIONS",
-        "id": 132242562,
-        "image": "",
-        "related": "BYD",
-        "source": "Finnhub",
-        "summary": "LAS VEGAS, Jan. 2, 2025 /PRNewswire/ --\u00a0Boyd Gaming Corporation today announced that it donated more than $200,000 to non-profit organizations nationwide as part of its 17th annual Wreaths and Trees...",
-        "url": "https://finnhub.io/api/news?id=580607cb9e16d2df1a27fbd486fdbc9aabd7bbb47c6d4fe17d3b0bc652b7b731"
     }
 ]

@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "category": "company",
+        "datetime": 1736149108,
+        "headline": "Serve Robotics Secures $86 Million in New Financing in December, Solidifying Liquidity Position to Transform Last-Mile Delivery",
+        "id": 132285439,
+        "image": "",
+        "related": "SERV",
+        "source": "Finnhub",
+        "summary": "SAN FRANCISCO, Jan. 06, 2025 -- Serve Robotics Inc. , a leading autonomous delivery company, today announced that it raised gross proceeds of $86 million during December 2024, bringing total gross...",
+        "url": "https://finnhub.io/api/news?id=3be652ea31a7ec8f15cebf58793f1b256607bd5fce383018fcdffe99094f8dd8"
+    }
+]

@@ -1,45 +1,45 @@
 {
     "TSLA": {
-        "price": "409.710000",
+        "price": "420.199100",
         "quantity": "0.02442800",
         "average_buy_price": "409.3663",
-        "equity": "10.01",
-        "percent_change": "0.08",
+        "equity": "10.26",
+        "percent_change": "2.65",
         "intraday_percent_change": "0.00",
-        "equity_change": "0.008396",
+        "equity_change": "0.264624",
         "type": "stock",
         "name": "Tesla",
         "id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
-        "pe_ratio": "103.901000",
-        "percentage": "2.61"
+        "pe_ratio": "112.437000",
+        "percentage": "2.63"
     },
     "LITM": {
-        "price": "0.904900",
+        "price": "0.920100",
         "quantity": "399.63128200",
         "average_buy_price": "0.9382",
-        "equity": "361.63",
-        "percent_change": "-3.55",
+        "equity": "367.70",
+        "percent_change": "-1.93",
         "intraday_percent_change": "0.00",
-        "equity_change": "-13.307722",
+        "equity_change": "-7.233326",
         "type": "stock",
         "name": "Snow Lake Resources",
         "id": "2eb8f060-cbc7-481e-94ca-d71400096ac1",
         "pe_ratio": null,
-        "percentage": "94.16"
+        "percentage": "94.17"
     },
     "COST": {
-        "price": "917.229300",
+        "price": "921.650000",
         "quantity": "0.01355000",
         "average_buy_price": "914.3911",
-        "equity": "12.43",
-        "percent_change": "0.31",
-        "intraday_percent_change": "0.31",
-        "equity_change": "0.038458",
+        "equity": "12.49",
+        "percent_change": "0.79",
+        "intraday_percent_change": "0.00",
+        "equity_change": "0.098358",
         "type": "stock",
         "name": "Costco",
         "id": "ec89803c-c5e5-4df1-889c-da4f8cb6f8cd",
-        "pe_ratio": "53.425200",
-        "percentage": "3.24"
+        "pe_ratio": "53.822800",
+        "percentage": "3.20"
     },
-    "timestamp": "2025-01-03 21:31:51"
+    "timestamp": "2025-01-06 13:16:05"
 }

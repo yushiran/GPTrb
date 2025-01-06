@@ -1,6 +1,50 @@
 [
     {
         "category": "company",
+        "datetime": 1736150512,
+        "headline": "Cerence AI to Present at 27th Annual Needham Growth Conference",
+        "id": 132285632,
+        "image": "",
+        "related": "CRNC",
+        "source": "Finnhub",
+        "summary": "BURLINGTON, Mass., Jan. 06, 2025 -- Cerence Inc. , a global leader in AI for transportation, announced today that it will be presenting at the 27th\u202fAnnual Needham Growth Conference on Tuesday,...",
+        "url": "https://finnhub.io/api/news?id=0c4a1c875b11d7389c98890c4573995971cc91e7d46b7a4331c39ef36645f03d"
+    },
+    {
+        "category": "company",
+        "datetime": 1736141873,
+        "headline": "Cerence extends its partnership with Nvidia",
+        "id": 132284549,
+        "image": "",
+        "related": "CRNC",
+        "source": "Finnhub",
+        "summary": "Imagine cars that understand what you're saying, respond intelligently and make your journey more enjoyable. That's exactly what Cerence does. The Burlington, Massachusetts- based company is a global...",
+        "url": "https://finnhub.io/api/news?id=ffd8d801e3554baafbe4532ad77cb1d43efe53556fec62317a475e2e7152a032"
+    },
+    {
+        "category": "company",
+        "datetime": 1735996272,
+        "headline": "Cerence AI expands collaboration with Nvidia for CaLLM family of language models",
+        "id": 132268649,
+        "image": "https://media.zenfs.com/en/tipranks_452/751ad5f2bba1d7793476cab1457b13e5",
+        "related": "CRNC",
+        "source": "Yahoo",
+        "summary": "Cerence (CRNC) announced an expanded collaboration with NVIDIA (NVDA) to advance the capabilities of its CaLLM family of language models, including its cloud-based Cerence Automotive Large Language Model and its CaLLM Edge embedded small language model. Through this collaboration, CaLLM is powered by NVIDIA AI Enterprise, an end-to-end, cloud-native software platform, and some aspects of CaLLM Edge are powered by NVIDIA DRIVE AGX Orin. Integrating agentic frameworks with in-car conversations in",
+        "url": "https://finnhub.io/api/news?id=b077f93e7a78536b81cc79dc570c5dc5be7122892479aa47b7697069489534bc"
+    },
+    {
+        "category": "company",
+        "datetime": 1735937942,
+        "headline": "Cerence stock soars over 140% on new AI partnership with Nvidia",
+        "id": 132259275,
+        "image": "https://s.yimg.com/ny/api/res/1.2/XOWhIkcH4LM.rgtmSoPoVg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/3c1d93b0-ca15-11ef-b7ff-21abc9170f8e",
+        "related": "CRNC",
+        "source": "Yahoo",
+        "summary": "Cerence (CRNC) \u2014 an artificial intelligence developer that works with a multitude of major automakers \u2014 shares skyrocket by over 140% in Friday's session after announcing an AI partnership with Nvidia (NVDA) Josh Lipton and Josh Schafer break down these stock movements and the details of Cerence's new partnership with Nvidia. To watch more expert insights and analysis on the latest market action, check out more Market Domination\u00a0here. This post was written by Luke Carberry Mogan.",
+        "url": "https://finnhub.io/api/news?id=cde7a166195480402d14f74c84b70258e2f6331d387900e7dab47083241877f8"
+    },
+    {
+        "category": "company",
         "datetime": 1735920547,
         "headline": "SoundHound Rival Cerence AI Scores Nvidia Automotive Pact. Shares Surge.",
         "id": 132255843,
@@ -9,27 +53,5 @@
         "source": "Yahoo",
         "summary": "Cerence AI, a rival of SoundHound, announced an automotive pact with Nvidia. Cerence stock popped, SoundHound stock also gained.",
         "url": "https://finnhub.io/api/news?id=b23807124cb2fcbb41787a95c2a665eb6114b0fd6062ab92fe1495a4ec1185aa"
-    },
-    {
-        "category": "company",
-        "datetime": 1735909200,
-        "headline": "Cerence AI Expands Collaboration with NVIDIA to Advance its CaLLM Family of Language Models",
-        "id": 132255844,
-        "image": "https://s.yimg.com/ny/api/res/1.2/MjI5ikBoleIaLvb3pyrRig--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0yMjE-/https://media.zenfs.com/en/globenewswire.com/5b7beab034ebbf2e3f434e7282b27574",
-        "related": "CRNC",
-        "source": "Yahoo",
-        "summary": "Company will leverage the NVIDIA AI Enterprise software platform, including the NVIDIA TensorRT-LLM open-source library and the NVIDIA NeMo framework, to optimize performanceBURLINGTON, Mass., Jan. 03, 2025 (GLOBE NEWSWIRE) -- Cerence Inc. (NASDAQ: CRNC) (\u201cCerence AI\u201d), a global industry leader in voice AI, today announced an expanded collaboration with NVIDIA to advance the capabilities of its CaLLM\u2122 family of language models, including its cloud-based Cerence Automotive Large Language Model (C",
-        "url": "https://finnhub.io/api/news?id=89ddeb060672ab7c76c82d9b422988f8ea83fa185eec0d23ee6ec87e25e89fcc"
-    },
-    {
-        "category": "company",
-        "datetime": 1735822800,
-        "headline": "Cerence AI Signs Long-Term, Strategic Partnership to Build Luxury Automaker\u2019s Next-Gen In-Car Experience",
-        "id": 132241221,
-        "image": "https://s.yimg.com/ny/api/res/1.2/MjI5ikBoleIaLvb3pyrRig--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0yMjE-/https://media.zenfs.com/en/globenewswire.com/5b7beab034ebbf2e3f434e7282b27574",
-        "related": "CRNC",
-        "source": "Yahoo",
-        "summary": "BURLINGTON, Mass., Jan. 02, 2025 (GLOBE NEWSWIRE) -- Cerence Inc. (NASDAQ: CRNC) (\u201cCerence AI\u201d), a global industry leader in AI for transportation, today announced a multi-year agreement with JLR to develop the luxury automotive\u2019s next-generation in-car experience. The companies will partner to leverage Cerence\u2019s AI-enabled technologies to deliver advanced intelligence and capabilities to JLR customers globally. The companies will continue to work together to expand and improve the JLR in-car ex",
-        "url": "https://finnhub.io/api/news?id=b62cf96faec213ae0e15de34503b38864ad837691b3db84a8b5996c09563edd8"
     }
 ]

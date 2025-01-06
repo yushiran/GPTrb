@@ -1,0 +1,57 @@
+[
+    {
+        "category": "company",
+        "datetime": 1736147700,
+        "headline": "2025 Investment Playbook: How I'm Setting Up My 6-Digit Portfolio For Outperformance",
+        "id": 132285231,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1877547665/image_1877547665.jpg?io=getty-c-w1536",
+        "related": "AMZN",
+        "source": "SeekingAlpha",
+        "summary": "With a 31.1% gain, 2024 has proven to be my most successful investing year. Read more to see what I expect from 2025.",
+        "url": "https://finnhub.io/api/news?id=4e4aad10e7e208fc08ac67e19dd7bee295027e8b4396e4f2f08a4a2cdf81d8ac"
+    },
+    {
+        "category": "company",
+        "datetime": 1736140560,
+        "headline": "How Uber and Lyft Are Gearing Up for the Robotaxi Revolution",
+        "id": 132283156,
+        "image": "",
+        "related": "AMZN",
+        "source": "Yahoo",
+        "summary": "After ending their own driverless plans, the ride-sharing companies are embracing autonomous-vehicle operators and offering new app features.",
+        "url": "https://finnhub.io/api/news?id=38b3d8f813d0dfdd7b5780e2e8fabd12f2562add159080354b0a5f336f598fac"
+    },
+    {
+        "category": "company",
+        "datetime": 1736111250,
+        "headline": "Here Are 5 Stocks That I Believe Will Perform Very Strongly In 2025",
+        "id": 132281872,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1609437977/image_1609437977.jpg?io=getty-c-w1536",
+        "related": "AMZN",
+        "source": "SeekingAlpha",
+        "summary": "I don't believe we will have a year as successful as 2024 in the markets. Check out the five stocks that, I believe, will perform very strongly this year.",
+        "url": "https://finnhub.io/api/news?id=375d1b981860c10bbf370b7912b862c17ff8a42d885d374941365570ebc3c462"
+    },
+    {
+        "category": "company",
+        "datetime": 1736104020,
+        "headline": "Amazon\u2019s Prime Video Acquires Melania Trump Film",
+        "id": 132280383,
+        "image": "",
+        "related": "AMZN",
+        "source": "Yahoo",
+        "summary": "Amazon.com  Prime Video streaming service has licensed what it said was a documentary about former and future first lady  Melania Trump.  The film is being done with her cooperation, and she will have an executive producer credit on the movie, Amazon said Sunday.  Filming of the \u201cbehind-the-scenes\u201d look at her life began in December, a month after President-elect  Donald Trump\u2019s  election victory.",
+        "url": "https://finnhub.io/api/news?id=5dc2774aad0eaf522a50e27f742eaebf98fd01afca1a0d0907012561f8c485a1"
+    },
+    {
+        "category": "company",
+        "datetime": 1736091915,
+        "headline": "A Melania Trump documentary from director Brett Ratner will be released by Amazon",
+        "id": 132280218,
+        "image": "",
+        "related": "AMZN",
+        "source": "Finnhub",
+        "summary": "LOS ANGELES \u2014 Incoming first lady Melania Trump will be the subject of a new documentary directed by Brett Ratner and distributed by Amazon Prime Video. The streaming arm of the tech giant got...",
+        "url": "https://finnhub.io/api/news?id=5e9693ff2c3c8178f5c9b08e89ab5d247000348734d9a657cd7a38a7f8f225cb"
+    }
+]

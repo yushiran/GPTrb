@@ -1,6 +1,17 @@
 [
     {
         "category": "company",
+        "datetime": 1735940344,
+        "headline": "Biden releases hydrogen tax credit. Nuclear energy stocks rise.",
+        "id": 132259281,
+        "image": "https://s.yimg.com/ny/api/res/1.2/udxFteJ74wWpYeYgY_FLXw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzY-/https://s.yimg.com/os/creatr-uploaded-images/2025-01/22526e50-ca1b-11ef-af4f-dc1a391a729a",
+        "related": "OKLO",
+        "source": "Yahoo",
+        "summary": "A number of nuclear energy providers and generators \u2014 including Oklo (OKLO), NuScale Power (SMR), and Nano Nuclear Energy (NNE) \u2014 are seeing their shares take off after the Biden administration eased their tax credit rules for clean hydrogen producers. Market Domination's Josh Lipton and Josh Schafer weigh in on this news as many nuclear and clean energy companies are positioning themselves to build out the next phase of the AI revolution. Catch Yahoo Finance's full interview with Goldman Sachs' Carly Davenport on the role regulated utilities will have in building out the energy infrastructure for AI data centers. To watch more expert insights and analysis on the latest market action, check out more Market Domination\u00a0here. This post was written by Luke Carberry Mogan.",
+        "url": "https://finnhub.io/api/news?id=b1bd0dbd8bec04b33b8305db2ee0f4537f5d987353ddf0b681395b900d0d80c5"
+    },
+    {
+        "category": "company",
         "datetime": 1735911093,
         "headline": "Nuclear Energy Stocks Enter 2025 On A High. AI Data Centers Need Them, A Lot.",
         "id": 132254034,
@@ -9,16 +20,5 @@
         "source": "Yahoo",
         "summary": "Nuclear stocks ran hot on the S&P 500 in 2024 as AI data center operators locked down a future's worth of energy. And 2025 is off to a strong start.",
         "url": "https://finnhub.io/api/news?id=15b83411b06d9b7b253c9f7a237396dfa9ce125cedfd06ebff1ee3d49d47e20c"
-    },
-    {
-        "category": "company",
-        "datetime": 1735816564,
-        "headline": "Pomerantz Law Firm Investigates Claims On Behalf of Investors of Oklo Inc. - OKLO",
-        "id": 132239613,
-        "image": "",
-        "related": "OKLO",
-        "source": "Finnhub",
-        "summary": "NEW YORK, Jan. 2, 2025 /PRNewswire/ -- Pomerantz LLP is investigating claims on behalf of investors of Oklo Inc. \u00a0.\u00a0 Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com\u00a0or...",
-        "url": "https://finnhub.io/api/news?id=4ee9ee7ed4adc72c182232069752a1d9038d0cbf293c4ab01dd87106c7a10cd4"
     }
 ]

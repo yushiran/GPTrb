@@ -14,10 +14,11 @@ PASSWORD = os.getenv("RH_PASSWORD")
 alphanumeric_code = os.getenv("alphanumeric_code")
 
 from src import *
-from src.follow_MyStock import save_holdings,dig_oppoturnity
-from src.analysis import analysis_main
-from src.gpt import gpt_main
-from src.mail import mail_main
+from src.follow_MyStock import save_holdings,dig_oppoturnity,save_holdings_pipeline,dig_oppoturnity_pipeline
+from src.analysis import analysis_main,analysis_main_pipeline
+from src.gpt import gpt_main,gpt_main_pipeline
+from src.mail import mail_main,mail_main_pipeline
+from src.redbook_sender import rb_main_pipeline,rb_main
 
 def main():
     totp  = pyotp.TOTP(alphanumeric_code).now()
@@ -42,5 +43,21 @@ def main():
         r.logout()
         print("Exiting...")
 
+def pipeline_main():
+    totp  = pyotp.TOTP(alphanumeric_code).now()
+    print(totp)
+    login = r.login(USERNAME, PASSWORD, mfa_code=totp) 
+
+    save_holdings_pipeline()
+    dig_oppoturnity_pipeline()
+    analysis_main_pipeline()
+    gpt_main_pipeline()
+    mail_main_pipeline()
+    rb_main_pipeline()
+
+    r.logout()
+    print("Exiting...")
+
 if __name__ == '__main__':
-    main() 
+    # main() 
+    pipeline_main()

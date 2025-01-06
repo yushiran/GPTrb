@@ -1,6 +1,50 @@
 [
     {
         "category": "company",
+        "datetime": 1736150512,
+        "headline": "XPENG selects RTI Connext Drive to Streamline Communication for its Next-Generation Vehicle Architecture",
+        "id": 132285628,
+        "image": "",
+        "related": "XPEV",
+        "source": "Finnhub",
+        "summary": "SUNNYVALE, Calif., Jan. 06, 2025 -- Real-Time Innovations , the infrastructure software company for smart-world systems, today announced\u00a0XPENG has selected RTI Connext Drive\u00ae to provide the core...",
+        "url": "https://finnhub.io/api/news?id=1c2ca8443e32f42a86dce9375c851cc827eb916868f8ff322c2ef91019b4f0ad"
+    },
+    {
+        "category": "company",
+        "datetime": 1736131611,
+        "headline": "Xpeng, Volkswagen to build ultra-fast charging network in China",
+        "id": 132282108,
+        "image": "https://media.zenfs.com/en/reuters-finance.com/a969f4aa942ef8d519949e6b49ca74de",
+        "related": "XPEV",
+        "source": "Yahoo",
+        "summary": "China's Xpeng Motors and Volkswagen have agreed to expand their partnership to cooperate on ultra-fast electric vehicle charging networks in China, the automakers said on Monday.  The companies have signed a memorandum of understanding to open their respective fast-charging networks to each other's customers, which comprise more than 20,000 charging piles across 420 cities in China, they said in a joint statement.  They will also explore the joint construction of co-branded ultra-fast charging stations.",
+        "url": "https://finnhub.io/api/news?id=8264d7e05f3c4538b2ee6c48957e1cfa66b77f73e93c9bcd82d05dc615c615b2"
+    },
+    {
+        "category": "company",
+        "datetime": 1736126400,
+        "headline": "XPENG and Volkswagen Group China to Jointly Build One of the Largest Super-Fast Charging Networks in China",
+        "id": 132282639,
+        "image": "https://media.zenfs.com/en/globenewswire.com/887bf5fc47835a1b8cc2297b9ad61f7b",
+        "related": "XPEV",
+        "source": "Yahoo",
+        "summary": "XPENG and the Volkswagen Group China announce a Memorandum of Understanding (MOU) to jointly build one of the largest super-fast charging networks in China, granting mutual access to respective proprietary, industry-leading super-fast charging networks.Over 20,000 charging piles operated by both parties across 420 cities in China will be accessible to customers of both XPENG and Volkswagen Group China.Both parties will jointly explore the cooperation on co-branded super-fast charging stations, a",
+        "url": "https://finnhub.io/api/news?id=4f814832f8e27cc66148813cd6dfb89b8288a4062dc7a87f960fd03bb0bcfb0e"
+    },
+    {
+        "category": "company",
+        "datetime": 1736112790,
+        "headline": "XPeng, Volkswagen Plan to Build One of China's Biggest EV Charging Networks",
+        "id": 132281972,
+        "image": "",
+        "related": "XPEV",
+        "source": "Finnhub",
+        "summary": "By Jiahui Huang Chinese carmaker XPeng is teaming up with Volkswagen to build what the companies say will be one of the largest super-fast charging networks for electric vehicles in China. ...",
+        "url": "https://finnhub.io/api/news?id=ffe9d0a5ff868ce3a86acadfaf8d0243070659748a7accd70c8d65c31b34947a"
+    },
+    {
+        "category": "company",
         "datetime": 1735903903,
         "headline": "XPeng: Positive Outlook Backed By Robust Deliveries Growth",
         "id": 132254548,
@@ -9,49 +53,5 @@
         "source": "SeekingAlpha",
         "summary": "XPeng's Q3 2024 results showed a 16.3% increase in vehicle deliveries and positive gross and vehicle margins. Read why I maintain a Buy rating on XPEV stock.",
         "url": "https://finnhub.io/api/news?id=9262518509499d8bfe1ea84c4cec349507aa4d0dcbdc34fb4759af4c555103f7"
-    },
-    {
-        "category": "company",
-        "datetime": 1735903724,
-        "headline": "XPENG Reports Strong Vehicle Delivery Growth in Q4 2024",
-        "id": 132251467,
-        "image": "",
-        "related": "XPEV",
-        "source": "Yahoo",
-        "summary": "XPeng, Inc. ADR ( (XPEV) ) has issued an update. XPENG Inc. reported a significant increase in vehicle deliveries for December and the fourth quarter of 2024, reaching 36,695 units in December, marking an 82% year-over-year increase. The company delivered 91,507 units in Q4, a 52% increase year-over-year, and 190,068 units for the entire year, up 34% from the previous year. The MONA M03 model exceeded 10,000 deliveries for the fourth consecutive month, highlighting XPENG\u2019s rapid production and d",
-        "url": "https://finnhub.io/api/news?id=987392415f443c46c4b8f4d826e7a72038ed8fe6d2de5a4755482d7bab9588a7"
-    },
-    {
-        "category": "company",
-        "datetime": 1735899841,
-        "headline": "Tesla: Major Q4 Delivery Disappointment",
-        "id": 132253772,
-        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1689016078/image_1689016078.jpg?io=getty-c-w1536",
-        "related": "XPEV",
-        "source": "SeekingAlpha",
-        "summary": "Tesla's Q4 delivery miss and potential threats from Trump's EV policy could impact TSLA's premium valuation in 2025. See why I'm going to keep my sell rating.",
-        "url": "https://finnhub.io/api/news?id=a2299f2c40ce516830ba9a5af921f87b2829d071664ca5286a8d5aafe5221e63"
-    },
-    {
-        "category": "company",
-        "datetime": 1735895837,
-        "headline": "XPENG Announces Vehicle Delivery Results for December and Fourth Quarter 2024",
-        "id": 132253294,
-        "image": "",
-        "related": "XPEV",
-        "source": "Finnhub",
-        "summary": "GUANGZHOU, China - XPeng Inc. , a leading Chinese smart electric vehicle company, today announced its vehicle delivery results for December and the fourth quarter 2024.* 36,695 units delivered in...",
-        "url": "https://finnhub.io/api/news?id=9ae041d16bdd5fa6047f244a514829383c382f338f0eeb216005c8ffe52898e0"
-    },
-    {
-        "category": "company",
-        "datetime": 1735842116,
-        "headline": "EV Wars: Who Wins, Who Loses?",
-        "id": 132244065,
-        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1542588811/image_1542588811.jpg?io=getty-c-w1536",
-        "related": "XPEV",
-        "source": "SeekingAlpha",
-        "summary": "BYD, NIO, Li Auto, XPeng, and ZEEKR lead the EV revolution with strong growth. Find out why these brands are poised for success in the evolving market.",
-        "url": "https://finnhub.io/api/news?id=2e879fd7ade4b30d2774591a5eaf91c7a9388ee6d104202f9990b352d9deb9c8"
     }
 ]

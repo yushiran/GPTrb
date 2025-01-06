@@ -1,6 +1,28 @@
 [
     {
         "category": "company",
+        "datetime": 1736122120,
+        "headline": "Acelyrin Leads The Charge With 2 Other US Penny Stocks",
+        "id": 132281527,
+        "image": "https://media.zenfs.com/en/simply_wall_st__316/7665404e4784395f2fabaf0da7c7079d",
+        "related": "NIO",
+        "source": "Yahoo",
+        "summary": "As the U.S. stock market rebounds from a five-session losing streak, led by a rally in major technology companies, investors are keenly observing opportunities across various sectors. Penny stocks, while often seen as relics of past trading eras, continue to offer intriguing prospects for growth and value discovery. These stocks typically represent smaller or newer companies that can deliver significant returns when supported by strong financials and sound fundamentals.",
+        "url": "https://finnhub.io/api/news?id=f7ec84f499d62195179fdffc9a3c413b6e7f5db72ad0eb2e8ffd653901c75c4f"
+    },
+    {
+        "category": "company",
+        "datetime": 1735985180,
+        "headline": "Is NIO Inc. (NIO) Among the Best Long-Term Penny Stocks to Buy According to Hedge Funds?",
+        "id": 132270629,
+        "image": "https://s.yimg.com/ny/api/res/1.2/fbe9iN5R78tj2Fp19dSd2w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/d02deb0aeed9330fc652aa9fa43c9dea",
+        "related": "NIO",
+        "source": "Yahoo",
+        "summary": "We recently published a list of the 12 Best Long-Term Penny Stocks to Buy According to Hedge Funds. In this article, we are going to take a look at where NIO Inc. (NYSE:NIO) stands against the other best long-term penny stocks to buy. What\u2019s the Future Like for Small Cap Stocks in 2025? On December [\u2026]",
+        "url": "https://finnhub.io/api/news?id=3feb97712a5e59d941b9039c899585f46de23632bef31fadacdbbd74e6f0becb"
+    },
+    {
+        "category": "company",
         "datetime": 1735903690,
         "headline": "NIO Inc. Achieves Record Deliveries and Launches New Models in 2024",
         "id": 132251499,
@@ -31,27 +53,5 @@
         "source": "Finnhub",
         "summary": "SHANGHAI, China - NIO Inc. , a pioneer and a leading company in the global smart electric vehicle market, today announced its December, fourth quarter and full year 2024 delivery results.* Company...",
         "url": "https://finnhub.io/api/news?id=ce9dcde3ab2cd37d322b21a6ea286d50e9758aacbcfedd910358d017e7b1b00f"
-    },
-    {
-        "category": "company",
-        "datetime": 1735895837,
-        "headline": "NIO Inc. Delivered 31,138 Vehicles in December 2024, Monthly Delivery Reaching A New Record High",
-        "id": 132253292,
-        "image": "",
-        "related": "NIO",
-        "source": "Finnhub",
-        "summary": "In December 2024, NIO Inc. delivered 31,138 vehicles in December 2024. Single-month deliveries exceed 30,000 units for the first time, marking an increase of 72.9% year-over-year. The deliveries...",
-        "url": "https://finnhub.io/api/news?id=7951ca0595c5bf57dcf566f9709b952a0fb1e98cebe68ef8386562be8ed72789"
-    },
-    {
-        "category": "company",
-        "datetime": 1735844662,
-        "headline": "Nio (NIO), Constellation (CEG) Advance Despite the Market\u2019s Retreat",
-        "id": 132242195,
-        "image": "https://s.yimg.com/ny/api/res/1.2/M.FwTBUYa7Pn6euCxt5r2Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/50a48d4d060fb7c1d36cbd507ea576a3",
-        "related": "NIO",
-        "source": "Yahoo",
-        "summary": "Chinese electric vehicle maker Nio (NYSE:NIO) and electricity generator Constellation Energy (NASDAQ:CEG) are defying the sudden, downward trend of stocks this afternoon. Both names are advancing about 5%. Nio is climbing after the automaker reported that it had delivered 31,138 vehicles in December, representing a new all-time record. The firm\u2019s deliveries rose an impressive 73% [\u2026]",
-        "url": "https://finnhub.io/api/news?id=d5246ce2cef351201a1ab9e08b3f626c24680260f4ea4eab93b2234078de29d5"
     }
 ]

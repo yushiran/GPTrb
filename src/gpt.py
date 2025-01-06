@@ -116,5 +116,39 @@ def gpt_main():
             
             time.sleep(5)
 
+def gpt_main_pipeline():
+    print("start gpt main")
+
+    current_time = time.localtime()
+    gpt_advice = []
+
+    gpt_advice.append(time.strftime('%Y-%m-%d %H:%M:%S', current_time))
+
+    folders = [f.name for f in os.scandir(f"{CURRENT_DIR}/../for_gpt_file") if f.is_dir() and f.name != "market"]
+    for folder in folders:
+        gpt_advice.append(gpt_funtion(folder))
+
+    gpt_advice.append(anysis_market())
+
+    gpt_advice.append(find_opportunity())
+
+    with open(f"{CURRENT_DIR}/../json/today_recommadation.txt", "w") as file:
+        for advice in gpt_advice[-2:]:
+            file.write(str(advice) + "\n")
+
+    # 转换为图片
+    txt_file_path = f"{CURRENT_DIR}/../json/today_recommadation.txt"
+    with open(txt_file_path, 'r', encoding='utf-8') as file:
+        text = file.read().strip()
+    output_image_path = f"{CURRENT_DIR}/../json/today_recommedation.png"
+    imgae_path = string_to_vertical_image(text=text, output_path=output_image_path)
+
+    with open(f"{CURRENT_DIR}/../json/gpt_advice.txt", "w") as file:
+        for advice in gpt_advice:
+            file.write(str(advice) + "\n")
+
+    print(f"finish gpt, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
+    
+
 if __name__=='__main__':
     gpt_main()

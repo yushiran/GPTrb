@@ -1,15 +1,15 @@
 {
-    "price": "410.260000",
+    "price": "420.199100",
     "quantity": "0.02442800",
     "average_buy_price": "409.3663",
-    "equity": "10.02",
-    "percent_change": "0.22",
+    "equity": "10.26",
+    "percent_change": "2.65",
     "intraday_percent_change": "0.00",
-    "equity_change": "0.021831",
+    "equity_change": "0.264624",
     "type": "stock",
     "name": "Tesla",
     "id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
-    "pe_ratio": "103.901000",
-    "percentage": "2.62",
-    "timestamp": "2025-01-03 21:30:42"
+    "pe_ratio": "112.437000",
+    "percentage": "2.63",
+    "timestamp": "2025-01-06 13:16:05"
 }

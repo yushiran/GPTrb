@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "category": "company",
+        "datetime": 1735949700,
+        "headline": "Dogness: Beware Of This Dog - Sell",
+        "id": 132263335,
+        "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/172868084/image_172868084.jpg?io=getty-c-w1536",
+        "related": "DOGZ",
+        "source": "SeekingAlpha",
+        "summary": "We warn of a potential crash in highflyer Chinese pet accessories supplier Dogness, initiating a Sell rating with an 80% downside. Read more on DOGZ stock here.",
+        "url": "https://finnhub.io/api/news?id=75212eea8ba9046d7c4ba2a47150014726b748ecac8f686787baba2308cce6c2"
+    }
+]

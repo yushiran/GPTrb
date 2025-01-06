@@ -178,25 +178,46 @@ def publish_xiaohongshu_image(driver, image_path,title,describe,keywords):
 def rb_main():
     while True:
         current_time = time.localtime()
-        if current_time.tm_hour == 15 and current_time.tm_min == 35:
-            current_time = time.localtime()
-            today_date = time.strftime("%m-%d", current_time)
-            print(f"Today's date is: {today_date}")
-            try:
-                title = f"ChatGPT勇闯美股 {today_date}"
-                keywords = ['#python','#美股','#股票','#投资', 'ChatGPT', 'AI','Quant']
-                describe = '个人工具分享，不构成投资建议'
-                driver = get_driver()
-                xiaohongshu_login(driver=driver)
-                publish_xiaohongshu_image(driver, image_path = f"{CURRENT_DIR}/../json/redbook_pic", title=title,keywords=keywords,describe=describe)
-                print('finished')
-            finally:
-                if driver:
-                    driver.quit()
+        # if current_time.tm_hour == 15 and current_time.tm_min == 35:
+        current_time = time.localtime()
+        today_date = time.strftime("%m-%d", current_time)
+        print(f"Today's date is: {today_date}")
+        try:
+            title = f"ChatGPT勇闯美股 {today_date}"
+            keywords = ['#python','#美股','#股票','#投资', '#ChatGPT', '#AI','#Quant']
+            describe = '个人工具分享，不构成投资建议'
+            driver = get_driver()
+            xiaohongshu_login(driver=driver)
+            publish_xiaohongshu_image(driver, image_path = f"{CURRENT_DIR}/../json/redbook_pic", title=title,keywords=keywords,describe=describe)
+            print('finished')
+        finally:
+            if driver:
+                driver.quit()
 
-            print('Redbook Sender is done')
+        print('Redbook Sender is done')
 
-            time.sleep(60)
+        time.sleep(60)
+
+def rb_main_pipeline():
+    print("redbook sender start")
+    current_time = time.localtime()
+    # if current_time.tm_hour == 15 and current_time.tm_min == 35:
+    current_time = time.localtime()
+    today_date = time.strftime("%m-%d", current_time)
+    print(f"Today's date is: {today_date}")
+    try:
+        title = f"ChatGPT勇闯美股 {today_date}"
+        keywords = ['#python','#美股','#股票','#投资', '#ChatGPT', '#AI','#Quant']
+        describe = '个人工具分享，不构成投资建议'
+        driver = get_driver()
+        xiaohongshu_login(driver=driver)
+        publish_xiaohongshu_image(driver, image_path = f"{CURRENT_DIR}/../json/redbook_pic", title=title,keywords=keywords,describe=describe)
+        print('finished')
+    finally:
+        if driver:
+            driver.quit()
+
+    print('Redbook Sender is done')
 
 if __name__=='__main__':
     rb_main()

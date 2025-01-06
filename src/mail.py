@@ -64,6 +64,29 @@ def mail_main():
             )
             time.sleep(60)
 
+def mail_main_pipeline():
+    current_time = time.localtime()
+    # 示例调用
+    subject = "gpt advice"
+    with open(f"{CURRENT_DIR}/../json/gpt_advice.txt", 'r', encoding='utf-8') as file:
+        body = file.read()
+    sender = os.getenv("sender_mail")
+    receivers = os.getenv("receivers_mail")
+    smtp_server = os.getenv("smtp_server")
+    smtp_port = os.getenv("smtp_port")
+    smtp_password = os.getenv("smtp_password")
+    attachment_path = f"{CURRENT_DIR}/../json/today_recommedation.png"  # 示例附件路径
+    send_email(
+        subject=subject,
+        body=body,
+        sender=sender,  # 发件人邮箱
+        receivers=[receivers],  # 收件人邮箱，可以是一个列表
+        smtp_server=smtp_server,  # 邮件服务SMTP服务器地址
+        smtp_port=smtp_port,  # 邮件服务SMTP服务器端口（一般为587）
+        smtp_password=smtp_password,  # 邮箱的密码或授权码
+        attachment_path=attachment_path  # 附件路径
+    )
+
 # Example usage
 if __name__ == "__main__":
     mail_main()

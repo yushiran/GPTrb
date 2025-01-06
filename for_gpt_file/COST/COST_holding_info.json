@@ -1,15 +1,15 @@
 {
-    "price": "917.229300",
+    "price": "921.650000",
     "quantity": "0.01355000",
     "average_buy_price": "914.3911",
-    "equity": "12.43",
-    "percent_change": "0.31",
-    "intraday_percent_change": "0.31",
-    "equity_change": "0.038458",
+    "equity": "12.49",
+    "percent_change": "0.79",
+    "intraday_percent_change": "0.00",
+    "equity_change": "0.098358",
     "type": "stock",
     "name": "Costco",
     "id": "ec89803c-c5e5-4df1-889c-da4f8cb6f8cd",
-    "pe_ratio": "53.425200",
-    "percentage": "3.25",
-    "timestamp": "2025-01-03 21:30:42"
+    "pe_ratio": "53.822800",
+    "percentage": "3.20",
+    "timestamp": "2025-01-06 13:16:05"
 }
